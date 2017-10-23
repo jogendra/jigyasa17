@@ -767,7 +767,7 @@ Hero
 }
 @font-face {
     font-family: "samarkan";
-    src: font-url(../font/samarkan.ttf);
+    src: url(../font/samarkan.ttf);
 }
 .hero h1 {
     font-size: 9em;
