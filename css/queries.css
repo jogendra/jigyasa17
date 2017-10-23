@@ -1,0 +1,10 @@
+@media only screen and(max-width: 800px){
+	.bar{display:block;
+	float:right;}
+	.menu_bar{
+		display:none;
+	}
+	
+
+
+}
