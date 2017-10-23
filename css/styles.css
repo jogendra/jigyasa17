@@ -763,11 +763,11 @@ Hero
     background-size: cover;
     padding: 65px 0 309px 0;
     height: auto;
-	
+
 }
 @font-face {
     font-family: "samarkan";
-    src: url(../samarkan.ttf)format("truetype");
+    src: url(../samarkan.ttf);
 }
 .hero h1 {
     font-size: 9em;
@@ -1028,14 +1028,14 @@ input{
 }
 .quiz input[type="submit"],
 .quiz input[type="button"]{
-    
+
     width: 19%;
     padding: 1%;
     background: #43D1AF;
     border-bottom: 2px solid #30C29E;
     border-top-style: none;
     border-right-style: none;
-    border-left-style: none;    
+    border-left-style: none;
     color: #fff;
 	font-size:180%;
 	margin-left:41%;
@@ -1063,7 +1063,7 @@ input{
     height: 220px;
 	margin-left:80x;
 	margin-top:80px;
-	
+
 }
 .specialS li{
 	width:auto;
@@ -1446,6 +1446,6 @@ Waypoints
   right:0;
   bottom:0;
   left:0;
-  z-index:0; 
+  z-index:0;
   height:865px;
 }
