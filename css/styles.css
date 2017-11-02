@@ -7,7 +7,9 @@ HTML5 display definitions
 
 
 /* * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3. */
-
+form input{
+color:black;
+}
 article,
 aside,
 details,
@@ -100,7 +102,21 @@ body {
 	z-index:0;
 }
 
-
+::-webkit-input-placeholder {
+color: black !important;
+}
+ 
+:-moz-placeholder { /* Firefox 18- */
+color: black !important;  
+}
+ 
+::-moz-placeholder {  /* Firefox 19+ */
+color: black !important;  
+}
+ 
+:-ms-input-placeholder {  
+color: black !important;  
+}
 
 /* ==========================================================================
 Links
@@ -345,7 +361,8 @@ Forms
 /* * Corrects margin displayed oddly in IE 6/7. */
 
 form {
-    margin: 0;
+    
+	margin-right:25%;
 }
 
 
@@ -761,13 +778,13 @@ Hero
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 65px 0 309px 0;
+    padding: 130px 0 412px 0;
     height: auto;
-
+	
 }
 @font-face {
-    font-family: 'samarkan';
-    src: url('../font/samarkan.ttf') format('truetype');
+    font-family: "samarkan";
+    src: url(../samarkan.ttf)format("truetype");
 }
 .hero h1 {
     font-size: 9em;
@@ -980,8 +997,7 @@ Portfolio
 	width: 60%;
 	height: 70%;
 	font-weight:bold;
-	overflow:scroll;
-	overflow-x:auto;
+	
 }
 .iframe_1 .iframe_2  .iframe_3{
 	display:none;
@@ -992,7 +1008,8 @@ Portfolio
     margin: 10px auto;
     padding: 16px;
     background: #F7F7F7;
-	height:120%;
+	height:125%;
+	overflow:scroll;
 }
 .quiz h1 {
 	background: #43D1AF;
@@ -1003,7 +1020,9 @@ Portfolio
     color: #fff;
     margin: -16px -16px 2px -16px;
 }
-
+.rules h3{
+	color:#353535;
+}
 .name .email .institute .phone{
 	width: 100%;
     background: #fff;
@@ -1014,7 +1033,7 @@ Portfolio
     font: 95% Arial, Helvetica, sans-serif;
 }
 input{
-	width:20%;
+	width:100%;
 	font-size: 120%;
 	border-radius:5px;
 }
@@ -1028,18 +1047,23 @@ input{
 }
 .quiz input[type="submit"],
 .quiz input[type="button"]{
-
-    width: 19%;
+    
+    width: 56%;
     padding: 1%;
     background: #43D1AF;
     border-bottom: 2px solid #30C29E;
     border-top-style: none;
     border-right-style: none;
-    border-left-style: none;
+    border-left-style: none;    
     color: #fff;
 	font-size:180%;
-	margin-left:41%;
-	margin-top:2%
+	margin-left:19%;
+	margin-top:2%;
+	margin-bottom:29%;
+}
+
+.rules{
+	text-align:center;
 }
 .quiz input[type="submit"]:hover,
 .quiz input[type="button"]:hover{
@@ -1063,7 +1087,7 @@ input{
     height: 220px;
 	margin-left:80x;
 	margin-top:80px;
-
+	
 }
 .specialS li{
 	width:auto;
@@ -1446,6 +1470,6 @@ Waypoints
   right:0;
   bottom:0;
   left:0;
-  z-index:0;
+  z-index:0; 
   height:865px;
 }

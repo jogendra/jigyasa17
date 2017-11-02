@@ -165,6 +165,7 @@ $(document).ready(function(){
 		$('.iframe_2, .iframe_3').fadeOut();
 		$('.google_doc, .iframe_1').fadeIn();
 		$('.iframe_1').css('height','100%');
+		$('.form_1, .rules_1').css('display','inline');
 		$('body, html').css('overflow','hidden');
 	})
 	$('.expand_2').click(function()
@@ -172,6 +173,7 @@ $(document).ready(function(){
 		$('.iframe_1, .iframe_3').fadeOut();
 		$('.google_doc, .iframe_2').fadeIn();
 		$('.iframe_2').css('height','100%');
+		$('.form, .rules').css('display','inline');
 		$('body, html').css('overflow','hidden');
 	})
 	$('.expand_3').click(function()
@@ -179,6 +181,7 @@ $(document).ready(function(){
 		$('.iframe_2, .iframe_1').fadeOut();
 		$('.google_doc, .iframe_3').fadeIn();
 		$('.iframe_3').css('height','100%');
+		$('.form, .rules').css('display','inline');
 		$('body, html').css('overflow','hidden');
 	})
 });
