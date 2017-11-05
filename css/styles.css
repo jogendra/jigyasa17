@@ -105,17 +105,17 @@ body {
 ::-webkit-input-placeholder {
 color: black !important;
 }
- 
+
 :-moz-placeholder { /* Firefox 18- */
-color: black !important;  
+color: black !important;
 }
- 
+
 ::-moz-placeholder {  /* Firefox 19+ */
-color: black !important;  
+color: black !important;
 }
- 
-:-ms-input-placeholder {  
-color: black !important;  
+
+:-ms-input-placeholder {
+color: black !important;
 }
 
 /* ==========================================================================
@@ -361,7 +361,7 @@ Forms
 /* * Corrects margin displayed oddly in IE 6/7. */
 
 form {
-    
+
 	margin-right:25%;
 }
 
@@ -780,11 +780,11 @@ Hero
     background-size: cover;
     padding: 130px 0 412px 0;
     height: auto;
-	
+
 }
 @font-face {
     font-family: "samarkan";
-    src: url(../samarkan.ttf)format("truetype");
+    src: url(../samarkan.TTF)format("truetype");
 }
 .hero h1 {
     font-size: 9em;
@@ -997,7 +997,7 @@ Portfolio
 	width: 60%;
 	height: 70%;
 	font-weight:bold;
-	
+
 }
 .iframe_1 .iframe_2  .iframe_3{
 	display:none;
@@ -1047,14 +1047,14 @@ input{
 }
 .quiz input[type="submit"],
 .quiz input[type="button"]{
-    
+
     width: 56%;
     padding: 1%;
     background: #43D1AF;
     border-bottom: 2px solid #30C29E;
     border-top-style: none;
     border-right-style: none;
-    border-left-style: none;    
+    border-left-style: none;
     color: #fff;
 	font-size:180%;
 	margin-left:19%;
@@ -1087,7 +1087,7 @@ input{
     height: 220px;
 	margin-left:80x;
 	margin-top:80px;
-	
+
 }
 .specialS li{
 	width:auto;
@@ -1470,6 +1470,6 @@ Waypoints
   right:0;
   bottom:0;
   left:0;
-  z-index:0; 
+  z-index:0;
   height:865px;
 }
